@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.sp.util.AppProperties",
+      "sourceType": "com.sp.util.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.messages",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.sp.util.AppProperties"
+    }
+  ],
+  "hints": []
+}
