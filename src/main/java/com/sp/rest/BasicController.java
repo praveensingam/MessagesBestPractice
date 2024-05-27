@@ -15,14 +15,14 @@ public class BasicController {//We use this approach when we have less no of mes
 	
 	@GetMapping("/quotations")
 	public String quotes() {
-		
+	System.out.println("Modification Occured in remote repo");	
 		return quotation;
 		
 	}
 	
 	@GetMapping("/advice")
 	public String advices() {
-		
+		System.out.println("Modification done in remotre repo");
 		return advice;
 	}
 
