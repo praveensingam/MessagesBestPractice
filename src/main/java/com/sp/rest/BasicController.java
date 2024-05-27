@@ -15,14 +15,14 @@ public class BasicController {//We use this approach when we have less no of mes
 	
 	@GetMapping("/quotations")
 	public String quotes() {
-		
+	System.out.println("Modification occured in working tree quotes");	
 		return quotation;
 		
 	}
 	
 	@GetMapping("/advice")
 	public String advices() {
-		
+		System.out.println("Modified in Working tree advices");
 		return advice;
 	}
 
