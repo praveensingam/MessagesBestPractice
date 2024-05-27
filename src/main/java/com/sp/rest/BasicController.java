@@ -16,7 +16,6 @@ public class BasicController {//We use this approach when we have less no of mes
 	@GetMapping("/quotations")
 	public String quotes() {
 	System.out.println("Modification occured in working tree quotes");	
-	System.out.println("Modification Occured in remote repo");	
 		return quotation;
 		
 	}
@@ -24,7 +23,6 @@ public class BasicController {//We use this approach when we have less no of mes
 	@GetMapping("/advice")
 	public String advices() {
 		System.out.println("Modified in Working tree advices");
-		System.out.println("Modification done in remotre repo");
 		return advice;
 	}
 
