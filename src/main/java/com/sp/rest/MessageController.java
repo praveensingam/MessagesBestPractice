@@ -20,8 +20,7 @@ public class MessageController {
 //		
 //		return messages.get("wlcmMessage");
 
-		return appProperties.getMessages().get(AppConstants.WELCOME_MSG_KEY); // To avoid hard coding string literals
-																				// with help of AppConstants
+		return appProperties.getMessages().get(AppConstants.WELCOME_MSG_KEY); // To avoid hard coding string literals with help of AppConstants
 	}
 
 	@GetMapping("/greet")
