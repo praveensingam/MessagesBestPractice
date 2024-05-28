@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BasicController {//We use this approach when we have less no of messages/variables to be declared
+public class BasicController {//We use this approach when we have less no of messages/variables to be declared.
 
 	@Value("${quote}")
 	String quotation;
