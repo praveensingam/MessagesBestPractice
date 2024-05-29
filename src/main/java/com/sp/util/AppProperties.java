@@ -13,7 +13,7 @@ import lombok.Data;
 @Configuration
 @EnableConfigurationProperties
 @ConfigurationProperties(prefix = "app")
-public class AppProperties {
+public class AppProperties {  //This class is used to load the properties from applicaion.yml/properties file.
 	
 	private Map<String, String> messages = new HashMap<>();
 
