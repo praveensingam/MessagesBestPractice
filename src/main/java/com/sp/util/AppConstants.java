@@ -2,7 +2,7 @@ package com.sp.util;
 
 public class AppConstants {
 	//AppConstants can be used to store application-wide constants such as 
-	//URLs, default values, error messages, etc.
+	//URLs, default values, error messages, etc...
 	
 	//Here we are using it to store string literals.
 	
